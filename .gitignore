@@ -1,0 +1,8 @@
+# Ignorar ejecutables compilados
+build/
+*.exe
+*.out
+
+# Ignorar archivos de datos binarios
+data/*.dat
+*.bin
