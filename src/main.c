@@ -20,6 +20,7 @@ int main()
 		{
 			case 1:
 				printf("\nDar de alta un producto.\n");
+				alta_producto();
 				break;
 			case 2:
 				printf("\nMostrar todos los productos.\n");

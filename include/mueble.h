@@ -11,4 +11,7 @@ typedef struct
 	int activo; // 1 = activo, 2 = borrado
 } Mueble;
 
+//agregamos la funcion para dar de alta un producto
+void alta_producto();
+
 #endif
