@@ -14,4 +14,13 @@ typedef struct
 //agregamos la funcion para dar de alta un producto
 void alta_producto();
 
+//agregamos la funcion para mostrar productos registrados
+void mostrar_productos();
+
+//agregamos la funcion para editar productos
+void editar_producto();
+
+//agregamos la funcion para eliminar producto
+void eliminar_producto();
+
 #endif

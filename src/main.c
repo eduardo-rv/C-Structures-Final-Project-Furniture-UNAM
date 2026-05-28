@@ -24,12 +24,15 @@ int main()
 				break;
 			case 2:
 				printf("\nMostrar todos los productos.\n");
+				mostrar_productos();
 				break;
 			case 3:
 				printf("\nEditar un producto.\n");
+				editar_producto();
 				break;
 			case 4:
 				printf("\nEliminar producto.\n");
+				eliminar_producto();
 				break;
 			case 5:
 				printf("\nCrear grafica de columnas.\n");
