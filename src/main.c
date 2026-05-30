@@ -65,10 +65,11 @@ int main()
 
 void Limpiar_Pantalla()
 {
-	printf("\033[H\033[J");
-	//getchar();
-	//system("clear");
-	//system("cls");
+#ifdef _WIN32
+	system("cls");
+#else
+	system("clear");
+#endif
 }
 
 void Presentacion()
