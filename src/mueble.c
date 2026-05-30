@@ -187,6 +187,9 @@ void grafica_columnas()
 	// codigo para graficar en codeblocks
 	int gd = DETECT, gm;
 	initgraph(&gd, &gm, ""); // Inicializa ventana grafica
+	setbkcolor(15);
+	cleardevice();
+	setcolor(0);
 	int x = 50; // Posicion inicial en X
 	outtextxy(200, 20, "Unidades Vendidas por Producto");
 	
