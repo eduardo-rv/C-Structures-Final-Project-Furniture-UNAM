@@ -266,6 +266,7 @@ void grafica_circular()
 	int angulo_inicio = 0;
 	int angulo_fin = 0;
 	int color = 1;
+	int leyenda_y = 50;
 	
 	outtextxy(200, 20, "Porcentaje de Ganancias Totales");
 	
@@ -280,7 +281,10 @@ void grafica_circular()
 			setfillstyle(SOLID_FILL, color);
 			// Dibuja la rebanada del pastel
 			pieslice(300, 250, angulo_inicio, angulo_fin, 150);
-			
+			bar(400, leyenda_y, 415, leyenda_y + 15);
+			outtextxy(425, leyenda_y + 3, m.clave);
+			leyenda_y += 30;
+
 			angulo_inicio = angulo_fin;
 			color++;
 			if(color > 14) color = 1; // Reiniciar colores si hay muchos productos
