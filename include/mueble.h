@@ -23,4 +23,10 @@ void editar_producto();
 //agregamos la funcion para eliminar producto
 void eliminar_producto();
 
+//agregamos la funcion grafica de columnas
+void grafica_columnas();
+
+//agregamos la funcion grafica circular
+void grafica_circular();
+
 #endif

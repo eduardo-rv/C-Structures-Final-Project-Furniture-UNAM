@@ -19,38 +19,40 @@ int main()
 		switch(opcion)
 		{
 			case 1:
-				printf("\nDar de alta un producto.\n");
+				// funcion para dar de alta algun producto
 				alta_producto();
 				break;
 			case 2:
-				printf("\nMostrar todos los productos.\n");
+				// funcion mostrar todos los productos
 				mostrar_productos();
 				break;
 			case 3:
-				printf("\nEditar un producto.\n");
+				// funcion para editar un producto
 				editar_producto();
 				break;
 			case 4:
-				printf("\nEliminar producto.\n");
+				// funcion para eliminar un produco
 				eliminar_producto();
 				break;
 			case 5:
-				printf("\nCrear grafica de columnas.\n");
+				// funcion para crear la grafica de columnas
+				grafica_columnas();
 				break;
 			case 6:
-				printf("\nCrear grafica circular.\n");
+				// funcion para la grafica circular
+				grafica_circular();
 				break;
 			case 7:
 				printf("\nCerrando programa...");
 				break;
 			default:
-				printf("\nOpcion no valida\n");
+				printf("\nOpcion no valida\n\n");
 
 		}
 
 		if(opcion != 7)
 		{
-			printf("Presiona ENTER para continuar...");
+			printf("\nPresiona ENTER para continuar...");
 			getchar();
 			getchar();
 		}
