@@ -1,6 +1,6 @@
 # Furniture Inventory Management System
 
-![UNAM Project](https://img.shields.io/badge/UNAM-Final_Project-003D7C?labelColor=2b2b2b&style=flat-square) ![C](https://img.shields.io/badge/C-00599C?labelColor=2b2b2b&style=flat-square) ![WinBGIm](https://img.shields.io/badge/Graphics-WinBGIm-4B0082?labelColor=2b2b2b&style=flat-square)
+![UNAM Project](https://img.shields.io/badge/UNAM-Final_Project-D4AF37?labelColor=002B5C&style=flat-square)
 
 This project is a console-based inventory management application developed in C. It serves as the final project for the Introduction to Algorithms course within the Applied Mathematics and Computing (MAC) program at UNAM. The system demonstrates secondary memory management via binary files (".dat"), full CRUD (Create, Read, Update, Delete) operations, and graphical data rendering.
 
@@ -23,12 +23,12 @@ To protect file integrity, the system implements logical deletion rather than de
 ### 3. Graphical Visualization (WinBGIm)
 The project includes a statistical module that leverages the WinBGIm library to open an independent graphical window with a white background, rendering business metrics dynamically.
 
-* **Bar Chart:** Displays sales volume by calculating the height of each bar based on units sold multiplied by a scale factor. The rendering loop automatically assigns alternating colors to each column.
+Bar Chart: Displays sales volume by calculating the height of each bar based on units sold multiplied by a scale factor. The rendering loop automatically assigns alternating colors to each column.
 
 ![Sales Bar Chart](assets/bar_chart.png)  
 Graphical window rendering the automated bar chart for units sold.
 
-* **Pie Chart:** Visualizes the net profit distribution by calculating the percentage of "(Price - Cost) * Units Sold" for each item. The logic includes mathematical validation to filter out items with negative margins or zero sales, preventing invalid angle calculations during rendering.
+Pie Chart: Visualizes the net profit distribution by calculating the percentage of "(Price - Cost) * Units Sold" for each item. The logic includes mathematical validation to filter out items with negative margins or zero sales, preventing invalid angle calculations during rendering.
 
 ![Profit Pie Chart](assets/pie_chart.png)  
 Graphical window rendering the profit distribution pie chart.
